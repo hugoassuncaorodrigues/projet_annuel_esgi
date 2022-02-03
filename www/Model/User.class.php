@@ -212,7 +212,6 @@ class User extends Sql
         ];
     }
 
-//Pour le formulaire de contact -Hugo
     public function getContactForm(): array
     {
         return [
@@ -240,6 +239,4 @@ class User extends Sql
             ]
         ];
     }
-
-
 }

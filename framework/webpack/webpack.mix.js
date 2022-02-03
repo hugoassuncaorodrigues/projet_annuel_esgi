@@ -11,18 +11,18 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.setPublicPath('../dist');
+mix.setPublicPath('../../www/dist');
 
 // mix.babel([
 //  '../src/js/vendor/lazysizes/lazysizes.min.js',
 //  '../src/js/vendor/jquery/jquery-3.4.1.min.js',
 //  '../src/js/vendor/flickity/flickity.pkgd.min.js',
 //  '../src/js/main.js'
-// ], '../dist/main.js');
+// ], '../../www/dist/main.js');
 
 // mix.minify('../web/dist/main.js');
 
-mix.sass('../src/scss/main.scss', '../dist/');
+mix.sass('../src/scss/main.scss', '../../www/dist/');
 
 module.exports = {
   //...
