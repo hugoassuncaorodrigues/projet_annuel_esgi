@@ -1,5 +1,1 @@
-<form>
-
-    <input>
-
-</form>
+<h1>Contact</h1>
