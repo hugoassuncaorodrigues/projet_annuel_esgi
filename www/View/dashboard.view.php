@@ -36,9 +36,9 @@
             <section id="sectionVueEns">
                 <div class="container">
                     <h2>Vue d'ensemble</h2>
-                    <label for="totalVentes">Total des ventes</label>
-                    <label for="totalVisiteurs">Total des visiteurs</label>
-                    <label for="totalCommandes">Total des commandes</label>
+                    <div class="container" name="totalVentes">Total des ventes</div>
+                    <div class="container" name="totalVisiteurs">Total des visiteurs</div>
+                    <div class="container" name="totalCommandes">Total des commandes</div>
                 </div>
             </section>
             <section id="sectionStatistique">
@@ -50,13 +50,13 @@
             <section id="sectionProdTend">
                 <div class="container">
                     <h2>Produits tendance</h2>
-                    <label for="produitsTendance">(carré blanc)</label>
+                    <div class="container" name="produitsTendance">(carré blanc)</div>
                 </div>
             </section>
             <section id="sectionRecAj">
                 <div class="container">
                     <h2>Récemment ajouté</h2>
-                    <label for="recemmentAjoute">(carré blanc)</label>
+                    <div class="container" name="recemmentAjoute">(carré blanc)</label>
                 </div>
             </section>
         </main>
