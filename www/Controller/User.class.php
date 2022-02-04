@@ -16,7 +16,12 @@ class User {
         $view->assign("pseudo", "Prof");
         $view->assign("firstname", "Yves");
         $view->assign("lastname", "Skrzypczyk");
-
+        $userLogin = new UserModel();
+        if( !empty($_POST)){
+            Security::checkLogin($_POST['email'],$_POST['password']);
+        }
+        $view->assign("userLogin", $userLogin);
+        var_dump($_POST);
     }
 
 
