@@ -29,8 +29,21 @@ if(!file_exists($routeFile)){
 $routes = yaml_parse_file($routeFile);
 
 if( empty($routes[$uri]) ||  empty($routes[$uri]["controller"])  ||  empty($routes[$uri]["action"])){
-    die("Erreur 404");
+    die($route);
 }
+
+if( ($routes[$uri]["acces"]) ){
+//checker si user a des droits et  est connecté
+    
+} else {
+
+    header("Location:http://localhost/login");
+    die();
+
+}
+
+
+
 
 $controller = ucfirst(strtolower($routes[$uri]["controller"]));
 $action = strtolower($routes[$uri]["action"]);
