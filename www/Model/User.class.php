@@ -142,7 +142,7 @@ class User extends Sql
                     "class"=>"inputForm",
                     "id"=>"emailForm",
                     "error"=>"Email incorrect",
-                    "unicity"=>"true",
+                    "unicity"=>"user",
                     "errorUnicity"=>"Email déjà en bdd",
                 ],
                 "password"=>[
