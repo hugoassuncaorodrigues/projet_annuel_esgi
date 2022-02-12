@@ -1,76 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+  <meta charset="UTF-8">
+  <title>CMS MyShopMaker</title>
+  <link rel="stylesheet" href="./dist/main.css">
+
 </head>
-    <body>
-        <header id="site-header">
-            <div class="container">
-                <a href="#">
-                    <img src="" alt="">
-                </a>
-                <nav>
-                    <ul>
-                        <li><a href="">Dashboard</a></li>
-                        <li><a href="#">Mes projets</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li><a href="#">Utilisateurs</a></li>
-                        <li><a href="#">Catégories</a></li>
-                        <li><a href="#">Commentaires</a></li>
-                        <li><a href="#">Paramètres</a></li>
-                    </ul>
-                    <p>Suivez-nous</p>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <section id="sectionBienvenue">
-                <div class="container">
-                    <h1>Bienvenue sur votre Dashboard !</h1>   
-                       <input type="text" placeholder="Rechercher...">    
-                </div>
-            </section>
-            <section id="sectionVueEns">
-                <div class="container">
-                    <h2>Vue d'ensemble</h2>
-                    <div class="container" name="totalVentes">Total des ventes</div>
-                    <div class="container" name="totalVisiteurs">Total des visiteurs</div>
-                    <div class="container" name="totalCommandes">Total des commandes</div>
-                </div>
-            </section>
-            <section id="sectionStatistique">
-                <div class="container">
-                    <h2>Statistique</h2>
-                    <canvas id="myChart" width="100%"></canvas>
-                </div>
-            </section>
-            <section id="sectionProdTend">
-                <div class="container">
-                    <h2>Produits tendance</h2>
-                    <div class="container" name="produitsTendance">(carré blanc)</div>
-                </div>
-            </section>
-            <section id="sectionRecAj">
-                <div class="container">
-                    <h2>Récemment ajouté</h2>
-                    <div class="container" name="recemmentAjoute">(carré blanc)</label>
-                </div>
-            </section>
-        </main>
-        <footer>
-			<div class="container">
-				<nav>
-					<ul>
-						<li><a href="#">Légal</a></li>
-						<li><a href="#">Cookies</a></li>
-						<li><a href="#">À propos des pubs</a></li>
-					</ul>
-				</nav>
-				<small>© 2022 MyShopMaker</small>
+<body>
+<header>
+		<div class="logo">Xero<span>Source</span></div>
+	</header>
+	<div class="nav-btn">Menu</div>
+	<div class="container">
+		
+		<div class="sidebar">
+			<nav>
+				<a href="#">Myshop<span>Maker</span></a>
+				<ul>
+					<li><a href="#">Dashboard</a></li>
+					<li><a href="#">Mes Projets</a></li>
+					<li><a href="#">Pages</a></li>
+					<li><a href="#">Utilisateurs</a></li>
+					<li><a href="#">Catégories</a></li>  <!-- rajouter les pictos -->
+					<li><a href="#">Commentaires</a></li>
+					<li><a href="#">Paramètres</a></li>
+					
+				</ul>
+			</nav>
+		</div>
+
+		<div class="main-content">
+			<h1>Bienvenue sur votre Dashboard !</h1>
+			<div class="search">
+				<input type="text" maxlength= "12" placeholder="Search..." class="searchbar">
+				<img src="https://images-na.ssl-images-amazon.com/images/I/41gYkruZM2L.png" alt="Magnifying Glass" class="button">
 			</div>
-		</footer>
-    </body>
+
+			<div class="panel-wrapper">
+				<div class="panel-head">
+					Vue d'ensemble
+				</div>
+				<div class="panel-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt.
+				</div>
+			</div>
+			<div class="panel-wrapper">
+				<div class="panel-head">
+					Statistiques
+				</div>
+				<div class="panel-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt.
+				</div>
+			</div>
+			<div class="panel-wrapper">
+				<div class="panel-head">
+					Produits tendances
+				</div>
+				<div class="panel-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt.
+				</div>
+			</div>
+			<div class="panel-wrapper">
+				<div class="panel-head">
+					Récemment ajouté
+				</div>
+				<div class="panel-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt.
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>
