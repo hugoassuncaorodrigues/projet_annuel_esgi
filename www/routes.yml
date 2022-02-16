@@ -1,31 +1,36 @@
 /:
   controller: main
   action: home
+  acces: guest;admin
 
 /contact:
   controller: main
   action: contact
+  acces: guest; admin
+
 
 /login:
   controller: user
   action: login
+  acces: guest
 
 /logout:
   controller: user
   action: logout
+  acces: admin
 
 /register:
   controller: user
   action: register
+  acces: guest
 
 /forget:
   controller: user
   action: pwdforget
+  acces: admin
 
 
 /dashboard:
   controller: admin
   action: dashboard
-  security:
-    - admin
-    - user
+ acces: admin
