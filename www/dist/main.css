@@ -480,6 +480,34 @@
   }
 }
 
+.etiquetteProduit {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #c4c4c4;
+}
+
+.containerFront {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.etiquetteProduit .valide {
+  text-align: center;
+  background-color: #7d7d7d;
+  border-radius: 15px;
+}
+
+.frontHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 body {
   color: #d15656;
 }
+
