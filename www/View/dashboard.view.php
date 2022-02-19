@@ -15,8 +15,11 @@
 		
 		<div class="sidebar">
 			<nav>
+			
 				<a href="#">Myshop<span>Maker</span>
-				<div class="logo"> </div>
+				<div>
+				<i class="fa-solid fa-laptop-code"></i>		
+					</div>   
 			    </a>
 				<ul>
 					<li> 
