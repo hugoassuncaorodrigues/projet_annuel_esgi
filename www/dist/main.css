@@ -1,313 +1,485 @@
 .grid {
-  max-width: 100%;
-  margin: 0 auto;
-  border: black solid 1px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
-.row {
+.grid .container {
+  max-width: 1900px;
+  box-sizing: border-box;
+}
+
+.grid .container .row {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
-@media screen and (min-width: 0px) {
-  .col-sm-1 {
+.grid .container .row .col-1,
+.grid .container .row col-lg-1,
+.grid .container .row col-md-1,
+.grid .container .row col-xl-1 {
+  box-sizing: border-box;
+  width: 8.3333333333%;
+  padding-right: calc(30px/2);
+  padding-left: calc(30px/2);
+}
+
+.grid .container .row .col-2,
+.grid .container .row col-lg-2,
+.grid .container .row col-md-2,
+.grid .container .row col-xl-2 {
+  box-sizing: border-box;
+  width: 16.6666666667%;
+  padding-right: calc(30px/2);
+  padding-left: calc(30px/2);
+}
+
+.grid .container .row .col-3,
+.grid .container .row col-lg-3,
+.grid .container .row col-md-3,
+.grid .container .row col-xl-3 {
+  box-sizing: border-box;
+  width: 25%;
+  padding-right: calc(30px/2);
+  padding-left: calc(30px/2);
+}
+
+.grid .container .row .col-4,
+.grid .container .row col-lg-4,
+.grid .container .row col-md-4,
+.grid .container .row col-xl-4 {
+  box-sizing: border-box;
+  width: 33.3333333333%;
+  padding-right: calc(30px/2);
+  padding-left: calc(30px/2);
+}
+
+.grid .container .row .col-5,
+.grid .container .row col-lg-5,
+.grid .container .row col-md-5,
+.grid .container .row col-xl-5 {
+  box-sizing: border-box;
+  width: 41.6666666667%;
+  padding-right: calc(30px/2);
+  padding-left: calc(30px/2);
+}
+
+.grid .container .row .col-6,
+.grid .container .row col-lg-6,
+.grid .container .row col-md-6,
+.grid .container .row col-xl-6 {
+  box-sizing: border-box;
+  width: 50%;
+  padding-right: calc(30px/2);
+  padding-left: calc(30px/2);
+}
+
+.grid .container .row .col-7,
+.grid .container .row col-lg-7,
+.grid .container .row col-md-7,
+.grid .container .row col-xl-7 {
+  box-sizing: border-box;
+  width: 58.3333333333%;
+  padding-right: calc(30px/2);
+  padding-left: calc(30px/2);
+}
+
+.grid .container .row .col-8,
+.grid .container .row col-lg-8,
+.grid .container .row col-md-8,
+.grid .container .row col-xl-8 {
+  box-sizing: border-box;
+  width: 66.6666666667%;
+  padding-right: calc(30px/2);
+  padding-left: calc(30px/2);
+}
+
+.grid .container .row .col-9,
+.grid .container .row col-lg-9,
+.grid .container .row col-md-9,
+.grid .container .row col-xl-9 {
+  box-sizing: border-box;
+  width: 75%;
+  padding-right: calc(30px/2);
+  padding-left: calc(30px/2);
+}
+
+.grid .container .row .col-10,
+.grid .container .row col-lg-10,
+.grid .container .row col-md-10,
+.grid .container .row col-xl-10 {
+  box-sizing: border-box;
+  width: 83.3333333333%;
+  padding-right: calc(30px/2);
+  padding-left: calc(30px/2);
+}
+
+.grid .container .row .col-11,
+.grid .container .row col-lg-11,
+.grid .container .row col-md-11,
+.grid .container .row col-xl-11 {
+  box-sizing: border-box;
+  width: 91.6666666667%;
+  padding-right: calc(30px/2);
+  padding-left: calc(30px/2);
+}
+
+.grid .container .row .col-12,
+.grid .container .row col-lg-12,
+.grid .container .row col-md-12,
+.grid .container .row col-xl-12 {
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: calc(30px/2);
+  padding-left: calc(30px/2);
+}
+
+@media (min-width: 650px) {
+  .grid .col-sm-1 {
+    box-sizing: border-box;
     width: 8.3333333333%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-sm-2 {
+  .grid .col-sm-2 {
+    box-sizing: border-box;
     width: 16.6666666667%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-sm-3 {
+  .grid .col-sm-3 {
+    box-sizing: border-box;
     width: 25%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-sm-4 {
+  .grid .col-sm-4 {
+    box-sizing: border-box;
     width: 33.3333333333%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-sm-5 {
+  .grid .col-sm-5 {
+    box-sizing: border-box;
     width: 41.6666666667%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-sm-6 {
+  .grid .col-sm-6 {
+    box-sizing: border-box;
     width: 50%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-sm-7 {
+  .grid .col-sm-7 {
+    box-sizing: border-box;
     width: 58.3333333333%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-sm-8 {
+  .grid .col-sm-8 {
+    box-sizing: border-box;
     width: 66.6666666667%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-sm-9 {
+  .grid .col-sm-9 {
+    box-sizing: border-box;
     width: 75%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-sm-10 {
+  .grid .col-sm-10 {
+    box-sizing: border-box;
     width: 83.3333333333%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-sm-11 {
+  .grid .col-sm-11 {
+    box-sizing: border-box;
     width: 91.6666666667%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-sm-12 {
-    width: 100%;
-    flex-grow: 1;
+  .grid .col-sm-12 {
     box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    width: 100%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 }
 
-@media screen and (min-width: 768px) {
-  .col-md-1 {
+@media (min-width: 900px) {
+  .grid .col-md-1 {
+    box-sizing: border-box;
     width: 8.3333333333%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-md-2 {
+  .grid .col-md-2 {
+    box-sizing: border-box;
     width: 16.6666666667%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-md-3 {
+  .grid .col-md-3 {
+    box-sizing: border-box;
     width: 25%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-md-4 {
+  .grid .col-md-4 {
+    box-sizing: border-box;
     width: 33.3333333333%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-md-5 {
+  .grid .col-md-5 {
+    box-sizing: border-box;
     width: 41.6666666667%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-md-6 {
+  .grid .col-md-6 {
+    box-sizing: border-box;
     width: 50%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-md-7 {
+  .grid .col-md-7 {
+    box-sizing: border-box;
     width: 58.3333333333%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-md-8 {
+  .grid .col-md-8 {
+    box-sizing: border-box;
     width: 66.6666666667%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-md-9 {
+  .grid .col-md-9 {
+    box-sizing: border-box;
     width: 75%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-md-10 {
+  .grid .col-md-10 {
+    box-sizing: border-box;
     width: 83.3333333333%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-md-11 {
+  .grid .col-md-11 {
+    box-sizing: border-box;
     width: 91.6666666667%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-md-12 {
-    width: 100%;
-    flex-grow: 1;
+  .grid .col-md-12 {
     box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    width: 100%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .col-lg-1 {
+@media (min-width: 1200px) {
+  .grid .col-lg-1 {
+    box-sizing: border-box;
     width: 8.3333333333%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-lg-2 {
+  .grid .col-lg-2 {
+    box-sizing: border-box;
     width: 16.6666666667%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-lg-3 {
+  .grid .col-lg-3 {
+    box-sizing: border-box;
     width: 25%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-lg-4 {
+  .grid .col-lg-4 {
+    box-sizing: border-box;
     width: 33.3333333333%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-lg-5 {
+  .grid .col-lg-5 {
+    box-sizing: border-box;
     width: 41.6666666667%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-lg-6 {
+  .grid .col-lg-6 {
+    box-sizing: border-box;
     width: 50%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-lg-7 {
+  .grid .col-lg-7 {
+    box-sizing: border-box;
     width: 58.3333333333%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-lg-8 {
+  .grid .col-lg-8 {
+    box-sizing: border-box;
     width: 66.6666666667%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-lg-9 {
+  .grid .col-lg-9 {
+    box-sizing: border-box;
     width: 75%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-lg-10 {
+  .grid .col-lg-10 {
+    box-sizing: border-box;
     width: 83.3333333333%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-lg-11 {
+  .grid .col-lg-11 {
+    box-sizing: border-box;
     width: 91.6666666667%;
-    flex-grow: 1;
-    box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 
-  .col-lg-12 {
-    width: 100%;
-    flex-grow: 1;
+  .grid .col-lg-12 {
     box-sizing: border-box;
-    height: 50px;
-    border: black solid 1px;
+    width: 100%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
+  }
+}
+
+@media (min-width: 1900px) {
+  .grid .col-xl-1 {
+    box-sizing: border-box;
+    width: 8.3333333333%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
+  }
+
+  .grid .col-xl-2 {
+    box-sizing: border-box;
+    width: 16.6666666667%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
+  }
+
+  .grid .col-xl-3 {
+    box-sizing: border-box;
+    width: 25%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
+  }
+
+  .grid .col-xl-4 {
+    box-sizing: border-box;
+    width: 33.3333333333%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
+  }
+
+  .grid .col-xl-5 {
+    box-sizing: border-box;
+    width: 41.6666666667%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
+  }
+
+  .grid .col-xl-6 {
+    box-sizing: border-box;
+    width: 50%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
+  }
+
+  .grid .col-xl-7 {
+    box-sizing: border-box;
+    width: 58.3333333333%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
+  }
+
+  .grid .col-xl-8 {
+    box-sizing: border-box;
+    width: 66.6666666667%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
+  }
+
+  .grid .col-xl-9 {
+    box-sizing: border-box;
+    width: 75%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
+  }
+
+  .grid .col-xl-10 {
+    box-sizing: border-box;
+    width: 83.3333333333%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
+  }
+
+  .grid .col-xl-11 {
+    box-sizing: border-box;
+    width: 91.6666666667%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
+  }
+
+  .grid .col-xl-12 {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: calc(30px/2);
+    padding-left: calc(30px/2);
   }
 }
 
 body {
   color: #d15656;
 }
-
-header {
-  background-color: #123456;
-}
-
