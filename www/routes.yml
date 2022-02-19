@@ -29,3 +29,7 @@
   security:
     - admin
     - user
+
+/produits: 
+  controller: admin
+  action: produits
