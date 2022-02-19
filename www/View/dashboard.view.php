@@ -3,27 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <title>CMS MyShopMaker</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./dist/main.css">
 
 </head>
 <body>
 <header>
-		<div class="logo">Xero<span>Source</span></div>
 	</header>
 	<div class="nav-btn">Menu</div>
 	<div class="container">
 		
 		<div class="sidebar">
 			<nav>
-				<a href="#">Myshop<span>Maker</span></a>
+				<a href="#">Myshop<span>Maker</span>
+				<div class="logo"> </div>
+			    </a>
 				<ul>
-					<li><a href="#">Dashboard</a></li>
-					<li><a href="#">Mes Projets</a></li>
-					<li><a href="#">Pages</a></li>
-					<li><a href="#">Utilisateurs</a></li>
-					<li><a href="#">Catégories</a></li>  <!-- rajouter les pictos -->
-					<li><a href="#">Commentaires</a></li>
-					<li><a href="#">Paramètres</a></li>
+					<li> 
+					<i class="fa-solid fa-house navbar-icon"></i>
+						<a href="#">Dashboard</a>
+				    </li>
+					
+					<li>
+					<i class="fa-solid fa-folder-open navbar-icon"></i>
+						<a href="#">Mes Projets</a>
+					
+				</li>
+					<li>
+					<i class="fa-solid fa-file-lines navbar-icon"></i>
+						<a href="#">Pages</a>
+					
+				</li>
+					<li>
+					<i class="fa-solid fa-user-group navbar-icon"></i>
+						<a href="#">Utilisateurs</a>
+				</li>
+					<li>
+					<i class="fa-solid fa-list navbar-icon"></i>
+						<a href="#">Catégories</a>
+				</li> 
+					<li>
+					<i class="fa-solid fa-comments navbar-icon"></i>
+						<a href="#">Commentaires</a>
+				</li>
+					<li>
+					<i class="fa-solid fa-gears navbar-icon"></i>	
+						<a href="#">Paramètres</a>
+					</li>
 					
 				</ul>
 			</nav>
