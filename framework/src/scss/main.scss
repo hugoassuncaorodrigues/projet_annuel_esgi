@@ -2,10 +2,11 @@
 @import "components/grid";
 
 @import "components/etiquetteProduit";
-
-
+@import "components/dropdown";
 
 
 body {
     color: $text-color;
+    padding: 0;
+    margin: 0;
 }

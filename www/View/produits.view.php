@@ -22,7 +22,7 @@
                 </div>
             </div>
             <ul>
-      			<li><a href="#"><i class="fa fa-shopping-cart"></i> Panier</a></li>
+      			<li><a href="#"><i class="fa fa-shopping-cart"></i> Mon panier</a></li>
     		</ul>
         </nav>
     </header>
