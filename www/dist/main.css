@@ -1,4 +1,6 @@
-.grid {
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;
+
+0,700;1,400;1,700&display=swap);.grid {
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -487,18 +489,22 @@
   align-items: center;
   border-radius: 15px;
   background-color: #c4c4c4;
+  width: 20%;
+  margin: 5px;
 }
 
 .containerFront {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  font-family: "PT Sans", sans-serif;
 }
 
 .etiquetteProduit .valide {
   text-align: center;
   background-color: #7d7d7d;
-  border-radius: 15px;
+  border-radius: 13px;
+  color: white;
 }
 
 .frontHeader {
