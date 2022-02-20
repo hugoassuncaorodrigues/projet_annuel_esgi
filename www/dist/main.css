@@ -494,6 +494,7 @@
   color: black;
   text-align: center;
   font-family: "PT Sans", sans-serif;
+  padding: 0 !important;
 }
 
 .containerFront {
@@ -511,6 +512,7 @@
 .etiquetteProduit .prix {
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .etiquetteProduit .titleProduit {
