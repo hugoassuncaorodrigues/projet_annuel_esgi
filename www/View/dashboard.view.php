@@ -60,10 +60,10 @@
 
 		<div class="main-content">
 			<h1>Bienvenue sur votre Dashboard !</h1>
-			<div class="search">
-				<input type="text" maxlength= "12" placeholder="Search..." class="searchbar">
-				<img src="https://images-na.ssl-images-amazon.com/images/I/41gYkruZM2L.png" alt="Magnifying Glass" class="button">
-			</div>
+			<form class="search-container">
+    <input type="text" id="search-bar" placeholder="Recherche...">
+    <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+  </form>
 
 			<div class="panel-wrapper">
 				<div class="panel-head">
