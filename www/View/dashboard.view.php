@@ -16,9 +16,9 @@
 		<div class="sidebar">
 			<nav>
 			
-				<a href="#">Myshop<span>Maker</span>
+				<a href="#"><span></span>
 				<div>
-				<i class="fa-solid fa-laptop-code"></i>		
+				 <img src="dist/LOGO2.png">	
 					</div>   
 			    </a>
 				<ul>
