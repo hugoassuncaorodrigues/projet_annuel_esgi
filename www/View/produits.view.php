@@ -30,71 +30,71 @@
 		<div class="container ">
             <div class="row containerFront" style="margin: 0 30px">
                 <div class="etiquetteProduit col-2">
-                     <div class="imgProduit" ><img src="../dist/images/produits/daniel-ramos.jpg" alt="Denim Jeans" style="max-width:100%"></div> 
+                    <div class="imgProduit" ><img src="../dist/images/produits/daniel-ramos.jpg" alt="Denim Jeans" style="max-width:100%"></div> 
                     <h1 class="titleProduit">Jogging homme</h1>
                     <p class="prix">20.99$</p>
-                    <p ><button class="valide">Acheter</button></p>
+                    <a class="valide" href="">Acheter</a>
                 </div>
 
                 <div class="etiquetteProduit col-2">
                 <div class="imgProduit" ><img src="../dist/images/produits/daniel-ramos.jpg" alt="Denim Jeans" style="max-width:100%"></div> 
                     <h1 class="titleProduit">Jogging homme</h1>
                     <p class="prix">20.99$</p>
-                    <p ><button class="valide">Acheter</button></p>
+                    <a class="valide" href="">Acheter</a>
                 </div>
 
                 <div class="etiquetteProduit col-2">
                 <div class="imgProduit" ><img src="../dist/images/produits/daniel-ramos.jpg" alt="Denim Jeans" style="max-width:100%"></div> 
                     <h1 class="titleProduit">Jogging homme</h1>
                     <p class="prix">20.99$</p>
-                    <p><button class="valide">Acheter</button></p>
+                    <a class="valide" href="">Acheter</a>
                 </div>
 
                 <div class="etiquetteProduit col-2">
                 <div class="imgProduit" ><img src="../dist/images/produits/daniel-ramos.jpg" alt="Denim Jeans" style="max-width:100%"></div> 
                     <h1 class="titleProduit">Jogging homme</h1>
                     <p class="prix">20.99$</p>
-                    <p ><button class="valide">Acheter</button></p>
+                    <a class="valide" href="">Acheter</a>
                 </div>
 
                 <div class="etiquetteProduit col-2">
                 <div class="imgProduit" ><img src="../dist/images/produits/daniel-ramos.jpg" alt="Denim Jeans" style="max-width:100%"></div> 
                     <h1 class="titleProduit">Jogging homme</h1>
                     <p class="prix">20.99$</p>
-                    <p ><button class="valide">Acheter</button></p>
+                    <a class="valide" href="">Acheter</a>
                 </div>
 
                 <div class="etiquetteProduit col-2">
                 <div class="imgProduit" ><img src="../dist/images/produits/daniel-ramos.jpg" alt="Denim Jeans" style="max-width:100%"></div> 
                     <h1 class="titleProduit">Jogging homme</h1>
                     <p class="prix">20.99$</p>
-                    <p ><button class="valide">Acheter</button></p>
+                    <a class="valide" href="">Acheter</a>
                 </div>
 
                 <div class="etiquetteProduit col-2">
                 <div class="imgProduit" ><img src="../dist/images/produits/daniel-ramos.jpg" alt="Denim Jeans" style="max-width:100%"></div> 
                     <h1 class="titleProduit">Jogging homme</h1>
                     <p class="prix">20.99$</p>
-                    <p ><button class="valide">Acheter</button></p>
+                    <a class="valide" href="">Acheter</a>
                 </div>
 
                 <div class="etiquetteProduit col-2">
                 <div class="imgProduit" ><img src="../dist/images/produits/daniel-ramos.jpg" alt="Denim Jeans" style="max-width:100%"></div> 
                     <h1 class="titleProduit">Jogging homme</h1>
                     <p class="prix">20.99$</p>
-                    <p ><button class="valide">Acheter</button></p>
+                    <a class="valide" href="">Acheter</a>
                 </div>
                 <div class="etiquetteProduit col-2">
                 <div class="imgProduit" ><img src="../dist/images/produits/daniel-ramos.jpg" alt="Denim Jeans" style="max-width:100%"></div> 
                     <h1 class="titleProduit">Jogging homme</h1>
                     <p class="prix">20.99$</p>
-                    <p ><button class="valide">Acheter</button></p>
+                    <a class="valide" href="">Acheter</a>
                 </div>
                 <div class="etiquetteProduit col-2">
                 <div class="imgProduit" ><img src="../dist/images/produits/daniel-ramos.jpg" alt="Denim Jeans" style="max-width:100%"></div> 
                     <h1 class="titleProduit">Jogging homme</h1>
                     <p class="prix">20.99$</p>
-                    <p ><button class="valide">Acheter</button></p>
+                    <a class="valide" href="">Acheter</a>
                 </div>
             </div>
 		</div>
