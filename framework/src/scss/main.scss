@@ -1,12 +1,12 @@
 @import "variables";
 @import "components/grid";
+
 @import "components/etiquetteProduit";
+@import "components/dropdown";
 
 
 body {
     color: $text-color;
-}
-
-header {
-    background-color: $main-color;
+    padding: 0;
+    margin: 0;
 }
