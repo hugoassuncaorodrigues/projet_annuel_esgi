@@ -507,6 +507,13 @@
   background-color: #7d7d7d;
   border-radius: 13px;
   color: white;
+  border: 0;
+  font-size: 10pt;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 10%;
 }
 
 .etiquetteProduit .prix {
