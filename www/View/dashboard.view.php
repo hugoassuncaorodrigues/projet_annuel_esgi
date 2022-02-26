@@ -24,34 +24,34 @@
 				<ul>
 					<li> 
 					<i class="fa-solid fa-house navbar-icon"></i>
-						<a href="#">Dashboard</a>
+						<a id="icone" href="#">Dashboard</a>
 				    </li>
 					
 					<li>
 					<i class="fa-solid fa-folder-open navbar-icon"></i>
-						<a href="#">Mes Projets</a>
+						<a id="icone" href="#">Mes Projets</a>
 					
 				</li>
 					<li>
 					<i class="fa-solid fa-file-lines navbar-icon"></i>
-						<a href="#">Pages</a>
+						<a id="icone" href="#">Pages</a>
 					
 				</li>
 					<li>
 					<i class="fa-solid fa-user-group navbar-icon"></i>
-						<a href="#">Utilisateurs</a>
+						<a id="icone" href="#">Utilisateurs</a>
 				</li>
 					<li>
 					<i class="fa-solid fa-list navbar-icon"></i>
-						<a href="#">Catégories</a>
+						<a id="icone" href="#">Catégories</a>
 				</li> 
 					<li>
 					<i class="fa-solid fa-comments navbar-icon"></i>
-						<a href="#">Commentaires</a>
+						<a id="icone" href="#">Commentaires</a>
 				</li>
 					<li>
 					<i class="fa-solid fa-gears navbar-icon"></i>	
-						<a href="#">Paramètres</a>
+						<a id="icone" href="#">Paramètres</a>
 					</li>
 					
 				</ul>
