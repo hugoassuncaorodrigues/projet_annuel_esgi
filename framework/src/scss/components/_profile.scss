@@ -1,0 +1,69 @@
+/*Reset CSS*/
+
+
+#navConnexion{
+    width: 100%;
+    margin: 0 auto;
+
+    position: sticky;
+    top: 0px;
+}
+
+#navConnexion #ulConnexion{
+    list-style-type: none;
+}
+
+#navConnexion #ulConnexion #liConnexion{
+    float: right;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+#navConnexion #ulConnexion::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#navConnexion #aConnexion{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+#navConnexion #aConnexion:hover{
+    color: #c0c0c0;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+#navConnexion > #ulConnexion #liConnexion:hover .sous{
+    display: block;
+}
+.sous #liConnexion{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous #aConnexion{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous #aConnexion:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > #aConnexion::after{
+    content:" ▼";
+    font-size: 12px;
+}
