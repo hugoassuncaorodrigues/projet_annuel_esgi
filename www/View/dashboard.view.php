@@ -22,6 +22,9 @@
 					</div>   
 			    </a>
 				<ul>
+
+				
+
 					<li> 
 					<i class="fa-solid fa-house navbar-icon"></i>
 						<a id="icone" href="#">Dashboard</a>
@@ -54,47 +57,55 @@
 						<a id="icone" href="#">Paramètres</a>
 					</li>
 					
+
 				</ul>
 			</nav>
 		</div>
-
 		<div class="main-content">
+			<nav id="navConnexion">
+					<ul id="ulConnexion">
+						<li class="deroulant" id="liConnexion"><a id="aConnexion" href="#">Bonjour, alex &ensp;</a>
+							<ul class="sous">
+							<li id="liConnexion"><a id="aConnexion" href="#">Mon profil</a></li>
+							<li id="liConnexion"><a id="aConnexion" href="#">Aide</a></li>
+							<li id="liConnexion"><a id="aConnexion" href="#">Se déconnecter</a></li>
+					</ul>
+			</nav>
 			<h1>Bienvenue sur votre Dashboard !</h1>
-			<form class="search-container">
+        
+	<form class="search-container">
     <input type="text" id="search-bar" placeholder="Recherche...">
     <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
   </form>
-
-			<div class="panel-wrapper">
-				<div class="panel-head">
-					Vue d'ensemble
-				</div>
-				<div class="panel-body">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt.
-				</div>
-			</div>
-			<div class="panel-wrapper">
-				<div class="panel-head">
-					Statistiques
-				</div>
-				<div class="panel-body">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt.
+			<div class="row1">
+				<div class="col1">
+					<h2>Vue d'ensemble</h2>
+					<div class="conteneur1">
+						<div class="flex1"></div>
+						<div class="flex1"></div>
+						<div class="flex1"></div>
+					</div>
+				<div class="col1">
+					<h2>Produits tendances</h2>
+					<div class="conteneur2">
+						<div class="flex2"></div>
+					</div>
 				</div>
 			</div>
-			<div class="panel-wrapper">
-				<div class="panel-head">
-					Produits tendances
+			<div class="row2">
+				<div class="col2">
+					<h2>Statistiques</h2>
+						<div class="conteneur3">
+							<div class="flex3">
+								<canvas id="myChart" width='100%'></canvas>
+							</div>		
+						</div>
 				</div>
-				<div class="panel-body">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt.
-				</div>
-			</div>
-			<div class="panel-wrapper">
-				<div class="panel-head">
-					Récemment ajouté
-				</div>
-				<div class="panel-body">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt. Totam fugiat culpa quia possimus molestiae id sapiente ad eveniet, aliquid, eum sint fuga eius, ratione suscipit ut minus voluptates dicta nesciunt.
+				<div class="col2">
+					<h2>Récemment ajoutés</h2>
+					<div class="conteneur4">
+						<div class="flex4"></div>
+					</div>
 				</div>
 			</div>
 		</div>
