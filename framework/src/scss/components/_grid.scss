@@ -1,6 +1,6 @@
 $col-nb: 12;
 $grid-gutter: 30px;
-$sm-width: 650px;
+$sm-width: 320px;
 $md-width: 900px;
 $lg-width: 1200px;
 $xl-width: 1900px;
@@ -19,6 +19,7 @@ $xl-width: 1900px;
       margin-left: -15px;
       @for $i from 1 through $col-nb {
         .col-#{$i}, col-lg-#{$i}, col-md-#{$i}, col-xl-#{$i}{
+          flex-grow: 1;
           box-sizing: border-box;
           width: ((100 / $col-nb) * $i) * 1%;
           padding-right: calc(#{$grid-gutter}/2) ;
@@ -32,6 +33,7 @@ $xl-width: 1900px;
   @media (min-width: #{$sm-width}){
     @for $i from 1 through $col-nb {
       .col-sm-#{$i} {
+        flex-grow: 1;
         box-sizing: border-box;
         width: ((100 / $col-nb) * $i) * 1%;
         padding-right: calc(#{$grid-gutter}/2) ;
@@ -45,6 +47,7 @@ $xl-width: 1900px;
   @media (min-width: #{$md-width}){
     @for $i from 1 through $col-nb {
       .col-md-#{$i} {
+        flex-grow: 1;
         box-sizing: border-box;
         width: ((100 / $col-nb) * $i) * 1%;
         padding-right: calc(#{$grid-gutter}/2) ;
@@ -57,6 +60,7 @@ $xl-width: 1900px;
   @media (min-width: #{$lg-width}){
     @for $i from 1 through $col-nb {
       .col-lg-#{$i} {
+        flex-grow: 1;
         box-sizing: border-box;
         width: ((100 / $col-nb) * $i) * 1%;
         padding-right: calc(#{$grid-gutter}/2) ;
@@ -70,6 +74,7 @@ $xl-width: 1900px;
   @media (min-width: #{$xl-width}){
     @for $i from 1 through $col-nb {
       .col-xl-#{$i} {
+        flex-grow: 1;
         box-sizing: border-box;
         width: ((100 / $col-nb) * $i) * 1%;
         padding-right: calc(#{$grid-gutter}/2) ;
