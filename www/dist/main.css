@@ -440,6 +440,7 @@ header {
 
 .sidebar nav ul li a {
   margin-left: 16px;
+  display: inline-block;
 }
 
 .sidebar nav ul li:nth-child(1):hover {
