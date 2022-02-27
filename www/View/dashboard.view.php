@@ -21,27 +21,27 @@
 			    </a>
 				<ul>
 					<li> 
-					<i class="fa-solid fa-house"></i>
+					<i class="fa-solid fa-house navbar-icon"></i>
 						<a id="icone" href="#">Dashboard</a>
 				</li>
 					<li>
-					<i class="fa-solid fa-folder-open"></i>
+					<i class="fa-solid fa-folder-open navbar-icon"></i>
 						<a id="icone" href="#">Mes Projets</a>	
 				</li>
 					<li>
-					<i class="fa-solid fa-copy"></i>
+					<i class="fa-solid fa-scroll"></i>
 						<a id="icone" href="#">Pages</a>	
 				</li>
 					<li>
-					<i class="fa-solid fa-user-large"></i>
+					<i class="fa-solid fa-face-smile"></i>
 						<a id="icone" href="#">Utilisateurs</a>
 				</li>
 					<li>
-					<i class="fa-solid fa-clone"></i>
+					<i class="fa-solid fa-list navbar-icon"></i>
 						<a id="icone" href="#">Catégories</a>
 				</li> 
 					<li>
-					<i class="fa-solid fa-comment-dots"></i>
+					<i class="fa-solid fa-comment"></i>
 						<a id="icone" href="#">Commentaires</a>
 				</li>
 					<li>
