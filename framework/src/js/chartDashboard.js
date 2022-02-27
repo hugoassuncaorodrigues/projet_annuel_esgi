@@ -6,7 +6,7 @@ new Chart(document.getElementById("myChart"), {
             label: 'single_Z0',
             data: [12, 19, 3, 5, 2, 3],
             borderColor: '#0080FF',
-            fill: false,
+            fill: true,
         }]
     },
     options: {
