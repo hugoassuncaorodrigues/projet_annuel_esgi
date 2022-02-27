@@ -12,7 +12,6 @@ class User {
     public function login()
     {
         $view = new View("Login", "back");
-
         $view->assign("pseudo", "Prof");
         $view->assign("firstname", "Yves");
         $view->assign("lastname", "Skrzypczyk");
@@ -24,12 +23,13 @@ class User {
     {
 
         $user = new UserModel();
+        $result=$user->getOneBy(["email"=>"cborra@hotmail.fr"]);
+        var_dump($result);
 
         if( !empty($_POST)){
 
             $result = Verificator::checkForm($user->getRegisterForm(), $_POST);
-            print_r($result);
-
+            
         }
 
         $view = new View("register");
