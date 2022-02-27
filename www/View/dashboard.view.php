@@ -67,45 +67,47 @@
 				</nav>
 			</div>
 
-
-			<div class="row1">
-				<div class="col1">
-					<h2>Vue d'ensemble</h2>
-					<div class="conteneur1">
-						<div class="flex1"></div>
-						<div class="flex1"></div>
-						<div class="flex1"></div>
-					</div>
-				</div>
-				<div class="col1">
-					<h2>Produits tendances</h2>
-					<div class="conteneur2">
-						<div class="flex2"></div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="row2">
-				<div class="col2">
-					<h2>Statistiques</h2>
-						<div class="conteneur3">
-							<div class="flex3">
-								<canvas id="myChart" width='100%'></canvas>
-							</div>		
+			<div class="statistique">
+				<div class="rowStat">
+					<div class="col1">
+						<h2>Vue d'ensemble</h2>
+						<div class="conteneur1">
+							<div class="flex1"></div>
+							<div class="flex1"></div>
+							<div class="flex1"></div>
 						</div>
+					</div>
+					<div class="col1">
+						<h2>Produits tendances</h2>
+						<div class="conteneur2">
+							<div class="flex2"></div>
+						</div>
+					</div>
 				</div>
-			
-				<div class="col2">
-					<h2>Récemment ajoutés</h2>
-					<div class="conteneur4">
-						<div class="flex4"></div>
+				
+				<div class="rowStat">
+					<div class="col2">
+						<h2>Statistiques</h2>
+							<div class="conteneur3">
+								<div class="flex3">
+									<canvas id="myChart" width='100%'></canvas>
+								</div>		
+							</div>
+					</div>
+				
+					<div class="col2">
+						<h2>Récemment ajoutés</h2>
+						<div class="conteneur4">
+							<div class="flex4"></div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 <!-- partial -->
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+  <!-- <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script> -->
 
 </body>
+
 </html>
