@@ -5,14 +5,13 @@
 	margin-left: 250px;
 	padding: 20px 30px;
 }
-.row1 {
+.rowStat {
 	display: flex;
 	margin: 10px;
+	width:100%;
+	flex-wrap: wrap;
 }
-.row2 {
-	display: flex;
-	margin: 10px;
-}
+
 .col1 {
 	flex: 1; 
 	padding: 1em;
@@ -41,8 +40,8 @@
 .flex1{
 	text-align: center;
 	border: none;
-	margin-top: 40px;
-	width: 180px; 
+	width: 33%; 
+	margin: 10% 5px 5px 5px;
 	height:120px; 
 	border-radius: 25px;
 	background-color: #FFFFFF;
@@ -77,4 +76,11 @@
 	border-radius: 25px;
 	background-color: #FFFFFF;
 	box-shadow: 2px 4px 3px grey;
+}
+
+.statistique{
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
