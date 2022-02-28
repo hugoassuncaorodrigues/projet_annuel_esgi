@@ -11,7 +11,7 @@
 <header>
 	</header>
 	<div class="nav-btn">Menu</div>
-	<div class="container">
+	<div class="container background">
 		<div class="sidebar">
 			<nav>
 				<a href="#"><span></span>

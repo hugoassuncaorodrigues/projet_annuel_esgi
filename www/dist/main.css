@@ -547,6 +547,7 @@ header .logo span {
 .main-content {
   background-color: #E5E5E5;
   width: calc(100% - 250px);
+  height: 100%;
   margin-left: 250px;
   padding: 20px 30px;
 }
@@ -591,7 +592,7 @@ header .logo span {
   text-align: center;
   border: none;
   width: 33%;
-  margin: 10% 5px 5px 5px;
+  margin: 20px 5px 5px 5px;
   height: 120px;
   border-radius: 25px;
   background-color: #FFFFFF;
@@ -602,8 +603,8 @@ header .logo span {
   flex-grow: 1;
   text-align: center;
   border: none;
-  margin-top: 40px;
-  height: 350px;
+  margin-top: 10px;
+  height: 300px;
   border-radius: 25px;
   background-color: #FFFFFF;
   box-shadow: 2px 4px 3px grey;
@@ -613,8 +614,8 @@ header .logo span {
   flex-grow: 1;
   text-align: center;
   border: none;
-  margin-top: 40px;
-  height: 350px;
+  margin-top: 10px;
+  height: 300px;
   border-radius: 25px;
   background-color: #FFFFFF;
   box-shadow: 2px 4px 3px grey;
@@ -624,8 +625,8 @@ header .logo span {
   flex-grow: 1;
   text-align: center;
   border: none;
-  margin-top: 40px;
-  height: 350px;
+  margin-top: 10px;
+  height: 300px;
   border-radius: 25px;
   background-color: #FFFFFF;
   box-shadow: 2px 4px 3px grey;
@@ -636,6 +637,10 @@ header .logo span {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-around;
+}
+
+.background {
+  background-color: #E5E5E5;
 }
 
 /*Reset CSS*/
