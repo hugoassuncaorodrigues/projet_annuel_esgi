@@ -90,7 +90,8 @@
 						<h2>Statistiques</h2>
 							<div class="conteneur3">
 								<div class="flex3">
-									<canvas id="myChart" width='100%'></canvas>
+									<!--<canvas id="myChart" width='100%'></canvas>-->
+									<img  class="chart" width='60%' src="../dist/images/Stats.png" alt=""> </img>
 								</div>		
 							</div>
 					</div>
