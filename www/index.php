@@ -28,11 +28,8 @@ if(!file_exists($routeFile)){
 
 $routes = yaml_parse_file($routeFile);
 
-if( empty($routes[$uri]) ||  empty($routes[$uri]["controller"])  ||  empty($routes[$uri]["action"])){
-    die($route);
-}
-
 if( ($routes[$uri]["acces"]) ){
+    echo "ddasn";
 //checker si user a des droits et  est connecté
     
 } else {
@@ -40,7 +37,13 @@ if( ($routes[$uri]["acces"]) ){
     header("Location:http://localhost/login");
     die();
 
+} 
+
+
+if( empty($routes[$uri]) ||  empty($routes[$uri]["controller"])  ||  empty($routes[$uri]["action"])){
+    die($route);
 }
+
 
 
 

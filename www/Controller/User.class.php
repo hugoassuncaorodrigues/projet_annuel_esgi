@@ -11,11 +11,13 @@ class User {
 
     public function login()
     {
+        $user = new UserModel();
         $view = new View("Login", "back");
-        $view->assign("pseudo", "Prof");
+        /* $view->assign("pseudo", "Prof");
         $view->assign("firstname", "Yves");
-        $view->assign("lastname", "Skrzypczyk");
-
+        $view->assign("lastname", "Skrzypczyk"); */
+        $view->assign("acces",$user);
+        $view->assign("user",$user);
     }
 
 
