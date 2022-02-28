@@ -616,9 +616,6 @@ header .logo span {
   border: none;
   margin-top: 10px;
   height: 300px;
-  border-radius: 25px;
-  background-color: #FFFFFF;
-  box-shadow: 2px 4px 3px grey;
 }
 
 .flex4 {
@@ -641,6 +638,11 @@ header .logo span {
 
 .background {
   background-color: #E5E5E5;
+}
+
+.chart {
+  height: 250px;
+  width: 650px;
 }
 
 /*Reset CSS*/
