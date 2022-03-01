@@ -2,6 +2,8 @@
 
 namespace App\Core;
 
+use JetBrains\PhpStorm\ArrayShape;
+
 abstract class Sql
 {
     private $pdo;
@@ -55,6 +57,22 @@ abstract class Sql
 
         $queryPrepared = $this->pdo->prepare($sql);
         $queryPrepared->execute( $columns );
+
+    }
+
+    public function getOneBy(?array $where=null) : ?array 
+    {
+        $sql= "SELECT * FROM ".$this->table;
+        if (!is_null($where)){
+            foreach ($where as $column=>$value)
+            {
+                $select[] = $column."=:".$column;
+            }
+            $sql.=" WHERE ".implode(" AND ", $select);
+        }
+        $prepare=$this->pdo->prepare($sql);
+        $prepare->execute($where);
+        return $prepare->fetch();
 
     }
 

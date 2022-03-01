@@ -48,7 +48,8 @@ class Verificator
     {
        return filter_var($email, FILTER_VALIDATE_EMAIL);
     }
-
+    
+   
 
     public static function checkPassword($password): bool
     {

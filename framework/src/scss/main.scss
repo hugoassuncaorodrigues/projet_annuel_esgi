@@ -3,6 +3,7 @@
 @import "globals";
 @import "fonts";
 @import "components/grid";
+
 @import "components/sidebar";
 @import "components/header";
 @import "components/maincontent";
@@ -14,4 +15,16 @@
 
 
 
+
+
+@import "components/button";
+@import "components/etiquetteProduit";
+@import "components/dropdown";
+
+
+body {
+    color: $text-color;
+    padding: 0;
+    margin: 0;
+}
 
