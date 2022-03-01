@@ -1,7 +1,6 @@
-
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;
 
-0,700;1,400;1,700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap);@charset "UTF-8";
+0,700;1,400;1,700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap);@import url(https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);@charset "UTF-8";
 body,
 html {
   font-family: "Lato", sans-serif;
@@ -90,13 +89,6 @@ header {
 }
 
 .grid {
-  max-width: 100%;
-  margin: 0 auto;
-  border: black solid 1px;
-
-@import url(https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;
-
-0,700;1,400;1,700&display=swap);.grid {
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -104,7 +96,6 @@ header {
 .grid .container {
   max-width: 1900px;
   box-sizing: border-box;
-
 }
 
 .grid .container .row {
@@ -966,6 +957,7 @@ header .logo span {
 .deroulant > #aConnexion::after {
   content: " \25BC";
   font-size: 12px;
+}
 
 .button {
   text-align: center;
@@ -1104,9 +1096,8 @@ header .logo span {
 }
 
 body {
-  color: #d15656;
+  color: black;
   padding: 0;
   margin: 0;
-
 }
 
