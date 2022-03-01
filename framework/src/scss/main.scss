@@ -1,5 +1,22 @@
+
 @import "variables";
+@import "globals";
+@import "fonts";
 @import "components/grid";
+
+@import "components/sidebar";
+@import "components/header";
+@import "components/maincontent";
+@import "components/profile";
+
+
+
+
+
+
+
+
+
 @import "components/button";
 @import "components/etiquetteProduit";
 @import "components/dropdown";
@@ -10,3 +27,4 @@ body {
     padding: 0;
     margin: 0;
 }
+
