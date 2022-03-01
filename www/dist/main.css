@@ -26,12 +26,6 @@ header {
   position: relative;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .clearfix:after {
   content: "";
   display: block;
@@ -683,57 +677,60 @@ header {
   background-color: #A1A1A1;
 }
 
-.sidebar nav ul li:nth-child(1).active {
-  background-color: #A1A1A1;
-}
+/* .sidebar nav ul li:nth-child(1).active {  // hover = au survol, police change de couleur 
+	background-color: #A1A1A1;
+
+} */
 
 .sidebar nav ul li:nth-child(2):hover {
   background-color: #A1A1A1;
 }
 
-.sidebar nav ul li:nth-child(2).active {
-  background-color: #A1A1A1;
-}
+/* .sidebar nav ul li:nth-child(2).active {
+	background-color: #A1A1A1;
+} */
 
 .sidebar nav ul li:nth-child(3):hover {
   background-color: #A1A1A1;
 }
 
-.sidebar nav ul li:nth-child(3).active {
-  background-color: #A1A1A1;
+/* .sidebar nav ul li:nth-child(3).active {
+	background-color: #A1A1A1;
 }
+ */
 
 .sidebar nav ul li:nth-child(4):hover {
   background-color: #A1A1A1;
 }
 
-.sidebar nav ul li:nth-child(4).active {
-  background-color: #A1A1A1;
-}
+/* .sidebar nav ul li:nth-child(4).active {
+	background-color: #A1A1A1;
+} */
 
 .sidebar nav ul li:nth-child(5):hover {
   background-color: #A1A1A1;
 }
 
-.sidebar nav ul li:nth-child(5).active {
-  background-color: #A1A1A1;
+/* .sidebar nav ul li:nth-child(5).active {
+	background-color: #A1A1A1;
 }
+ */
 
 .sidebar nav ul li:nth-child(6):hover {
   background-color: #A1A1A1;
 }
 
-.sidebar nav ul li:nth-child(6).active {
-  background-color: #A1A1A1;
-}
+/* .sidebar nav ul li:nth-child(6).active {
+	background-color: #A1A1A1;
+} */
 
 .sidebar nav ul li:nth-child(7):hover {
   background-color: #A1A1A1;
 }
 
-.sidebar nav ul li:nth-child(7).active {
-  background-color: #A1A1A1;
-}
+/* .sidebar nav ul li:nth-child(7).active {
+	background-color: #A1A1A1;
+} */
 
 .sidebar nav ul li a {
   color: #D7D5D5;
