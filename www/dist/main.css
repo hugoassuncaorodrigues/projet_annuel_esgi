@@ -643,6 +643,10 @@ header .logo span {
   background-color: #E5E5E5;
 }
 
+.chart {
+  height: 300px;
+}
+
 /*Reset CSS*/
 
 #navConnexion {
