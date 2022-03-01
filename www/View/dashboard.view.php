@@ -8,8 +8,6 @@
 
 </head>
 <body>
-<header>
-	</header>
 	<div class="nav-btn">Menu</div>
 	<div class="container background">
 		<div class="sidebar">
