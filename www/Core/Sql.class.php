@@ -75,8 +75,6 @@ abstract class Sql
         $prepare->execute($where);
         $result=$prepare->fetch();
         if(gettype($result)!=="array"){
-            echo "ok";
-            
             $result=null;
             
         }

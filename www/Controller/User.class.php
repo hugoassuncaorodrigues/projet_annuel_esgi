@@ -15,19 +15,21 @@ class User {
         $view->assign("pseudo", "Prof");
         $view->assign("firstname", "Yves");
         $view->assign("lastname", "Skrzypczyk");
+        
 
     }
 
 
     public function register()
     {
-
         $user = new UserModel();
-        $result=$user->getOneBy(["email"=>"cborra@hotmail.fr"]);
-        var_dump($result);
-        if($result==null)
+        $unicity=$user->getOneBy(["email"=>$_POST['email']]);
+        //var_dump($unicity);
+        if($unicity==null)
         {
             echo "ce nom n'existe pas";
+            $user->setUser($_POST);
+            $user->save();
         }
         else{
             echo "ce nom existe";
@@ -41,7 +43,10 @@ class User {
         }
 
         $view = new View("register");
+       
         $view->assign("user", $user);
+        
+       
     }
 
 

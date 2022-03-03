@@ -239,4 +239,13 @@ class User extends Sql
             ]
         ];
     }
+
+    public function setUser(array $post):void
+    {
+        $this->firstname=$post['firstname'];
+        $this->lastname=$post['lastname'];
+        $this->email=$post['email'];
+        $this->password=$post['password'];
+
+    }
 }
