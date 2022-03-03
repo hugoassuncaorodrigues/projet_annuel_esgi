@@ -23,21 +23,25 @@ class User {
     public function register()
     {
         $user = new UserModel();
+        if( !empty($_POST)){
         $unicity=$user->getOneBy(["email"=>$_POST['email']]);
-        //var_dump($unicity);
+        var_dump($unicity);
         if($unicity==null)
         {
+            $result = Verificator::checkForm($user->getRegisterForm(), $_POST);
+            var_dump($result);
+            if(count($result)<1){
             echo "ce nom n'existe pas";
             $user->setUser($_POST);
-            $user->save();
+            $user->save();}
+            else{
+                echo $result[0];
+            }
         }
         else{
             echo "ce nom existe";
         }
         //var_dump($result);
-
-        if( !empty($_POST)){
-
             $result = Verificator::checkForm($user->getRegisterForm(), $_POST);
             
         }
