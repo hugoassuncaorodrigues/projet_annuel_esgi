@@ -28,16 +28,6 @@ if(!file_exists($routeFile)){
 
 $routes = yaml_parse_file($routeFile);
 
-if( ($routes[$uri]["acces"]) ){
-    echo "ddasn";
-//checker si user a des droits et  est connecté
-    
-} else {
-
-    header("Location:http://localhost/login");
-    die();
-
-} 
 
 
 if( empty($routes[$uri]) ||  empty($routes[$uri]["controller"])  ||  empty($routes[$uri]["action"])){
@@ -52,13 +42,23 @@ $controller = ucfirst(strtolower($routes[$uri]["controller"]));
 $action = strtolower($routes[$uri]["action"]);
 
 
-/*
- *
- *  Vérfification de la sécurité, est-ce que la route possède le paramètr security
- *  Si oui est-ce que l'utilisation a les droits et surtout est-ce qu'il est connecté ?
- *  Sinon rediriger vers la home ou la page de login
- *
- */
+private class security {
+
+    if( ($routes[$uri]["acces"]) ){
+
+       $isAdmin= class_exists(string $admin, bool $autoload = true): bool;
+            if($isAdmin == true){
+                return View("dashboard", "back");
+            }
+            else{
+                header("Location:http://localhost/login");
+                die();
+            }
+    } else {
+            header("Location:http://localhost/login");
+            die();
+           } 
+}
 
 
 $controllerFile = "Controller/".$controller.".class.php";
