@@ -24,6 +24,13 @@ class User {
 
         $user = new UserModel();
         $result=$user->getOneBy(["email"=>"cborra@hotmail.fr"]);
+        if(!empty($result)&& count($result)<1)
+        {
+            echo "ce nom n'existe pas";
+        }
+        else{
+            echo "ce nom existe";
+        }
         var_dump($result);
 
         if( !empty($_POST)){
