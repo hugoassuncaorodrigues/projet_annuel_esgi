@@ -70,9 +70,17 @@ abstract class Sql
             }
             $sql.=" WHERE ".implode(" AND ", $select);
         }
+        
         $prepare=$this->pdo->prepare($sql);
         $prepare->execute($where);
-        return $prepare->fetch();
+        $result=$prepare->fetch();
+        if(gettype($result)!=="array"){
+            echo "ok";
+            
+            $result=null;
+            
+        }
+        return $result;
 
     }
 
